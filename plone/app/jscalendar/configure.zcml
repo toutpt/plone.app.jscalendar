@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone.app.jscalendar">
+
+  <browser:resourceDirectory
+    name="plone.app.jscalendar"
+    directory="resources"
+    />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="plone.app.jscalendar"
+      directory="profiles/default"
+      description='Extension profile for plone.app.jscalendar.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
