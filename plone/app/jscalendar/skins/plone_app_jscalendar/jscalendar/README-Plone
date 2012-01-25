@@ -1,17 +1,9 @@
-Introduction
-============
-
-This addon package jscalendar_ for Plone
-
-Version: 1.0
-
-About jscalendar
-================
+README-Plone
 
 This is Mihai Bazon's <mihai_bazon@yahoo.com> excellent DHTML Calendar
 Widget, ("jscalendar") available in original from:
-http://dynarch.com/mishoo/calendar/old
-
+http://dynarch.com/mishoo/calendar/ (see README for licensing
+information).
 
 For version 1.0 of jscalendar, included in Plone 2.1, the
 integration from the previous jscalendar versions was changed
@@ -74,9 +66,9 @@ Plone integration
       then autohide) the other date/time controls.
 
       Change:
-        this.showAt(p.x, p.y + el.offsetHeight);
+		this.showAt(p.x, p.y + el.offsetHeight);
       To:
-        this.showAt(p.x, p.y + el.offsetHeight + 2);
+		this.showAt(p.x, p.y + el.offsetHeight + 2);
 
     - Add a style definition to all style sheets. This closes issue 1628,
       http://plone.org/collector/1628. This is due to line 1228 of the
@@ -87,11 +79,11 @@ Plone integration
       however too late in the release cycle to risk breaking something
       else. The preferred plone.css fix in future Plone versions:
 
-        .label {
-            font-weight: bold;
-            /* display: inline; */
-            padding-right: 0.5em;
-        }
+		.label {
+		    font-weight: bold;
+		    /* display: inline; */
+		    padding-right: 0.5em;
+		}
 
       In all *.css files change:
 

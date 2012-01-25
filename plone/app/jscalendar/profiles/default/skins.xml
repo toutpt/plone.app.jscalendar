@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+ <object name="plone_app_jscalendar"
+    meta_type="Filesystem Directory View"
+    directory="plone.app.jscalendar:skins/plone_app_jscalendar"/>
+ <skin-path name="*">
+  <layer name="plone_app_jscalendar"
+     insert-after="custom"/>
+ </skin-path>
+</object>
